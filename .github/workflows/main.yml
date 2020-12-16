@@ -38,5 +38,5 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://hammy-react-class-04.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://hammy-react-class-05.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
     
